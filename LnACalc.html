@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="lNaCalc.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loan Amortization Calculator</title>
+</head>
+  <form id="loanForm">
+  
+<!-- Table for inputting values. -->
+<body>
+  <table>
+    <tr>
+      <th>Borrowing Year; </th>
+      <th>Loan Amount; </th>
+    </tr>
+    <tr>
+      <td><input type="number" class = inputfields id="borrowingYear1" required><br><br></td>
+      <td><input type="number" class = inputfields id="loanAmt1" step="0.01" required><br><br></td>
+    </tr>
+    <tr>
+      <td><input type="number" class = inputfields id="borrowingYear2" disabled><br><br></td>
+      <td><input type="number" class = inputfields id="loanAmt2" step="0.01" required><br><br></td>
+    </tr>
+    <tr>
+      <td><input type="number" class = inputfields id="borrowingYear3" disabled><br><br></td>
+      <td><input type="number" class = inputfields id="loanAmt3" step="0.01" required><br><br></td>
+    </tr>
+    <tr>
+      <td><input type="number" class = inputfields id="borrowingYear4" disabled><br><br></td>
+      <td><input type="number" class = inputfields id="loanAmt4" step="0.01" required><br><br></td>
+    </tr>
+  </table>
+  
+<h2><button type="button" class = calculatebutton onclick="calculateDebt()">Calculate</button></h2>
+  
+</form>
+    
+<h3>Amortization Schedule</h3>
+    <table id="paymentTableBody">
+      <tr>
+        <td>Year</td>
+        <td>Payment</td>
+        <td>Interest</td>
+        <td>Principle</td>
+        <td>Remaining Debt</td>
+      </tr>
+    </table>
+    
+<script src="LnACalc.js"></script>
+</body>
+</html>

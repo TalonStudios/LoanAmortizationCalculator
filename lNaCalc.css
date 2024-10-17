@@ -1,0 +1,43 @@
+table, th, td {
+  border: 0.5px solid;
+  align-items: center;
+  width: 400px;
+  margin: auto;
+  margin-left: 200px;
+  background-color: rgba(0, 128, 0, 0.3);
+}
+th {
+  font-family: "Courier New";
+  font-size: 20px;
+}
+h3 {
+  margin-left: 310px;
+}
+head, body {
+  background-color: rgba(0, 128, 0, 0.2);
+  padding-left: 500px;
+}
+body {
+  padding-top: 70px;
+}
+
+.inputfields {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.calculatebutton {
+  border: 0.5px solid;
+  align-items: center;
+  margin-left: 300px;
+  width: 200px;
+  height: 50px;
+}
+#paymentTableBody {
+  align-items: center;
+  width: 560px;
+  margin: auto;
+  margin-left: 140px;
+  font-family: "Courier New";
+  font-size: 17px;
+}
